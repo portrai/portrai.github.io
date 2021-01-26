@@ -1998,3 +1998,7 @@ figcaption {
   text-align: center;
   margin: auto;
   padding: 40px; }
+
+.centercontainer {
+  margin: 0 30%;
+  width: 70%; }
