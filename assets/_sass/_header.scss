@@ -1,0 +1,50 @@
+header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: url('../assets/img/portrai_logo.png') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 50%;
+  -o-background-size: cover;
+
+  .headline { padding: 120px 600px; }
+
+  h1 {
+    font-family: Georgia !important;
+    font-size: 130px;
+    background: rgba(43, 52, 179, 0.548);
+    background: rgba(43, 101, 226, 0.562);
+    color: rgba(255, 255, 255, 0.938);
+  }
+
+  h2 {
+    font-family: monospace !important;
+    font-size: 44px;
+    background: #fff;
+    background: rgba(95, 142, 243, 0.459);
+    color: rgba(255, 255, 255, 0.938);
+  }
+
+  @media(max-width:1200px) {
+    h1 { font-size: 140px; }
+    h2 { font-size: 63px; }
+  }
+
+  @media(max-width:991px) {
+    h1 { font-size: 105px; }
+    h2 { font-size: 50px; }
+  }
+
+  @media(max-width:668px) {
+    h1 { font-size: 70px; }
+    h2 { font-size: 32px; }
+  }
+
+  @media(max-width:640px) {
+    .headline { padding: 75px 0 25px 0; }
+    h1 { font-size: 60px; }
+    h2 { font-size: 30px; }
+  }
+
+}
