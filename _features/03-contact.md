@@ -8,7 +8,7 @@ heading: Ask us anything!
 
 ---
 
-<form method="POST" action="https://formspree.io/info@portrai.nl">
+<form method="POST" action="https://formspree.io/f/xrgojdkq">
   <input type="email" name="email" placeholder="Your email">
   <input type="text" name="name" placeholder="Your name">
   <textarea name="message" placeholder="Your message" rows="3">
